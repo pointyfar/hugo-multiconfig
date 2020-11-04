@@ -1,0 +1,7 @@
+main:
+- name: home
+  url: "#"
+- name: about
+  url: "#"
+- name: contact
+  url: "#"

@@ -1,0 +1,12 @@
+[menus]
+[[menus.main]]
+name = 'home'
+url = '#'
+
+[[menus.main]]
+name = 'about'
+url = '#'
+
+[[menus.main]]
+name = 'contact'
+url = '#'

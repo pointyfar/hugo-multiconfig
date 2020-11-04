@@ -1,0 +1,11 @@
+[[main]]
+name = 'home'
+url = '#'
+
+[[main]]
+name = 'about'
+url = '#'
+
+[[main]]
+name = 'contact'
+url = '#'

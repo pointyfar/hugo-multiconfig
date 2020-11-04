@@ -1,0 +1,11 @@
+[params]
+configdir = 'configtoml'
+copyright = '(c) Me'
+subtitle = 'My Awesome Site'
+brandImage = 'img/awesome-logo.png'
+
+[params.scss]
+brandFont = ''''Oswald', sans-serif'''
+primary = 'CadetBlue'
+primaryInvert = '#fff'
+linkColor = 'navy'

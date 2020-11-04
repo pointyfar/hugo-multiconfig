@@ -1,0 +1,32 @@
+{{ define "main" }}
+<h1>{{ site.Params.configdir }}</h1>
+{{ . }}
+<hr>
+
+
+{{ range $k, $v := site.Menus }}
+{{ $k }}<br>
+{{ range $v }}
+-{{ .Name }}
+<br>
+{{ end }}
+
+{{ end }}
+<hr>
+
+{{ range $k, $v := site.Taxonomies }}
+{{ $k }}
+{{ range $v }}
+{{ . }}<br>
+{{ end }}
+<br>
+{{ end }}
+<hr>
+
+
+{{ range $k, $v := site.Params }}
+{{ $k }}: {{$v}}
+<br>
+{{ end }}
+
+{{ end }}
